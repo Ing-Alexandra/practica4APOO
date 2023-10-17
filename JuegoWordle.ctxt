@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=JuegoWordle
+comment1.params=palabrasPosibles
+comment1.target=JuegoWordle(java.util.List)
+comment2.params=
+comment2.target=void\ inicializarTablero()
+comment3.params=
+comment3.target=void\ seleccionarPalabraObjetivo()
+comment4.params=
+comment4.target=void\ mostrarTablero()
+comment5.params=palabra
+comment5.target=boolean\ adivinoPalabra(java.lang.String)
+comment6.params=letra
+comment6.target=boolean\ letraEnPalabraObjetivo(char)
+comment7.params=
+comment7.target=void\ jugar()
+comment8.params=args
+comment8.target=void\ main(java.lang.String[])
+numComments=9
