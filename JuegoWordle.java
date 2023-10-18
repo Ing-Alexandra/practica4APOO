@@ -56,11 +56,11 @@ public class JuegoWordle {
         
         for (int fila = 0; fila < 6; fila++) {
             System.out.print("Ingresa una palabra de 5 letras: ");
-            String palabra = scanner.next().toLowerCase(); // Convertir a minúsculas
+            String palabra = scanner.next().toLowerCase(); 
 
             if (palabra.length() != 5) {
                 System.out.println("La palabra debe tener exactamente 5 letras.");
-                fila--; // Reintentar en la misma fila
+                fila--; 
                 continue;
             }
             
@@ -106,8 +106,7 @@ public class JuegoWordle {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        List<String> palabrasPosibles = Arrays.asList("manos", "lugar", "playa", "lugar", "arbol"); // Aqui cambia las palabras a las que gustes
-
+        List<String> palabrasPosibles = Arrays.asList("manos", "lugar", "playa", "lugar", "arbol"); 
         JuegoWordle juegoWordle = new JuegoWordle(palabrasPosibles);
         juegoWordle.jugar();
 
